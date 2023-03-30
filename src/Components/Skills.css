@@ -1,0 +1,34 @@
+#skills {
+  width: var(--width);
+  height: var(--height);
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.skill-heading {
+  font-size: var(--main-headings);
+  border-radius: 20px;
+  width: 400px;
+  height: fit-content;
+  font-family: "Times New Roman", Times, serif;
+}
+.skill-set {
+  display: flex;
+  width: 600px;
+  height: fit-content;
+  flex-wrap: wrap;
+  position: absolute;
+  bottom: 100px;
+  right: 20px;
+}
+.single-skill {
+  border: 1px solid white;
+  height: 65px;
+  width: fit-content;
+  padding: 5px;
+  border-radius: 25px;
+  font-size: var(--sub-headings);
+  margin: 50px 10px 10px 10px;
+}

@@ -1,0 +1,88 @@
+#profile {
+  width: 100%;
+  height: var(--height);
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+}
+.profile-section-left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+}
+.creative {
+  height: 60%;
+  display: flex;
+  align-items: flex-end;
+  padding: 0 0 20px 20px;
+  font-family: "Abril Fatface", cursive;
+  font-size: 2rem;
+  font-weight: lighter;
+}
+.front-dev {
+  height: 40%;
+  display: flex;
+  align-items: flex-start;
+  padding: 20px 0 0 20px;
+  font-size: 5rem;
+  font-family: "Monoton", cursive;
+  /* font-family: "Tulpen One", cursive; */
+}
+.profile-section-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 50%;
+}
+.date {
+  display: flex;
+  align-items: flex-end;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+.month {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 100px;
+}
+.day {
+  /* font-family: "Monoton", cursive; */
+  font-size: 11rem;
+  font-weight: 100;
+  position: relative;
+  font-family: "Abril Fatface", cursive;
+}
+.day::before {
+  content: "*";
+  width: 35px;
+  height: 35px;
+  color: white;
+}
+
+.des {
+  height: 300px;
+  width: 500px;
+  word-wrap: break-word;
+  padding-top: 60px;
+  font-size: 2rem;
+  text-align: right;
+  margin-left: auto;
+  margin-right: 20px;
+  font-family: "Oswald", sans-serif;
+}
+.contact {
+  text-align: right;
+  margin-left: auto;
+  margin-right: 20px;
+  height: fit-content;
+  font-size: 2rem;
+  font-weight: 600;
+  width: fit-content;
+  border-radius: 20px;
+  border: 2px solid white;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 30px;
+}

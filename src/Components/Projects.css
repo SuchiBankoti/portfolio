@@ -1,0 +1,63 @@
+#projects {
+  height: 80vh;
+  width: var(--width);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 100px;
+  box-shadow: 0 0 5px 5px #191919;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#projects-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  justify-content: space-around;
+}
+.project-slider {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  width: 1000px;
+  height: 300px;
+  padding: 10px;
+  align-items: center;
+}
+.project-slider::-webkit-scrollbar {
+  display: none;
+}
+.prev-btn,
+.next-btn {
+  background-color: grey;
+  width: 50px;
+  height: 50px;
+  opacity: 0.2;
+  color: white;
+  font-size: xx-large;
+  font-weight: 800;
+}
+button:hover {
+  opacity: 1;
+}
+.project-bar {
+  display: flex;
+}
+.project-heading {
+  font-size: var(--sub-headings);
+  text-align: left;
+  margin-right: 30px;
+  font-family: "Major Mono Display", monospace;
+  font-weight: 900;
+}
+.gitlink {
+  width: 60px;
+  height: 60px;
+  margin-left: 20px;
+}
+.gitlink > a {
+  color: white;
+  font-size: 3rem;
+}
